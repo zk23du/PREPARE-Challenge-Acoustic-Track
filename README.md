@@ -86,7 +86,7 @@ We have utilized **ASR (Automatic Speech Recognition) models** and other embeddi
 - You can modify the **embedding extractor** and **model** directly within `main.py` to try different configurations.
 
 ### **8. Results**
-- Final Loss: 0.6822 (competition, MultiClassLog Loss)
+- Final Loss: 0.6720 (competition, MultiClassLog Loss)
 - Final Accuracy: 0.77
 - Log Loss: 0.24
 
