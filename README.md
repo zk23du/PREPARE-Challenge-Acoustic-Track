@@ -52,6 +52,7 @@ We have utilized **ASR (Automatic Speech Recognition) models** and other embeddi
 #### **3. CSV Processing**
 - The `csv` folder contains scripts for **processing CSV files** provided for the challenge.
 - This code is used to clean, preprocess, and organize the metadata or labels associated with the audio files.
+- The **best-performing script** is located at: `CSV/LightGBM_code.py`
 
 ---
 
@@ -61,13 +62,9 @@ We have utilized **ASR (Automatic Speech Recognition) models** and other embeddi
    git clone <repository-url>
    cd prepare-challenge
    ```
+- The libraries can be modified according to need. Also, the path must be modified before using the code.
 
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Main Script**:
+2. **Run the Main Script**:
    - Navigate to the `audios/whisper_best` folder.
    - Run the script with the following command:
      ```bash
@@ -88,13 +85,15 @@ We have utilized **ASR (Automatic Speech Recognition) models** and other embeddi
 - The code for this model can be run as described in the **Usage Instructions** section.
 - You can modify the **embedding extractor** and **model** directly within `main.py` to try different configurations.
 
+### **8. Results**
+- Final Loss: 0.6822 (competition, MultiClassLog Loss)
+- Final Accuracy: 0.77
+- Log Loss: 0.24
+
 ---
+### The code.ipynb file is a jupyter version of the best code and can also be used. The details are provided inside the file.
 
-### **8. Contact**
-If you have any questions or suggestions about the project, feel free to create an issue in the repository or contact the project maintainers.
+### **9. Contact**
+If you have any questions or suggestions about the project, feel free to create an issue in the repository or contact the project maintainers at drishyau@iiitd.ac.in.
 
 ---
-
-### **9. Acknowledgments**
-We acknowledge the efforts of the **National Institute on Aging (NIA)** for initiating the PREPARE Challenge and promoting research in Alzheimer's disease and related dementias (AD/ADRD).
-
